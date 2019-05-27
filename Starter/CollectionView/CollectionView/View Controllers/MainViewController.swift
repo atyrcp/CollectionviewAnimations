@@ -95,7 +95,11 @@ extension MainViewController {
 	
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "SectionHeader", for: indexPath) as! SectionHeader
-        view.title = dataSource.titleForSectionAtIndexPath(indexPath)
+        let sectoin = Section()
+        sectoin.title = dataSource.titleForSectionAtIndexPath(indexPath)
+        sectoin.count = dataSource.numberOfParksInSection(indexPath.section)
+        
+        view.section = sectoin
         
         return view
     }
