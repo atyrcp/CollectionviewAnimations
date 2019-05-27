@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A1D46AB1F6F1A0100CEE36F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD36E571F6DE9080059CBE5 /* GradientView.swift */; };
+		93455056229B91AE002041F6 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93455055229B91AE002041F6 /* SectionHeader.swift */; };
 		DD0D05AB1F4C2099009013A8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D05AA1F4C2099009013A8 /* CollectionViewCell.swift */; };
 		DD222DD01F4A803B00F2ECA9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD222DCF1F4A803B00F2ECA9 /* DetailViewController.swift */; };
 		DD5634E31F4D7DC300D950CD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5634E21F4D7DC300D950CD /* DataSource.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		0AD36E571F6DE9080059CBE5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		93455055229B91AE002041F6 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		DD0D05AA1F4C2099009013A8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		DD222DCF1F4A803B00F2ECA9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DD5634E21F4D7DC300D950CD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				0AD36E571F6DE9080059CBE5 /* GradientView.swift */,
+				93455055229B91AE002041F6 /* SectionHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				DD5634E51F4D7E3E00D950CD /* Park.swift in Sources */,
 				DD8169AF1F45326700FD949C /* MainViewController.swift in Sources */,
 				DD0D05AB1F4C2099009013A8 /* CollectionViewCell.swift in Sources */,
+				93455056229B91AE002041F6 /* SectionHeader.swift in Sources */,
 				0A1D46AB1F6F1A0100CEE36F /* GradientView.swift in Sources */,
 				DD5634E31F4D7DC300D950CD /* DataSource.swift in Sources */,
 				DD8169AD1F45326700FD949C /* AppDelegate.swift in Sources */,
