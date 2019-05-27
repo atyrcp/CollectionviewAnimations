@@ -71,6 +71,8 @@ class MainViewController: UICollectionViewController {
 	
 	@IBAction func deleteSelected() {
 		if let selected = collectionView?.indexPathsForSelectedItems {
+            let layout = collectionView.collectionViewLayout as! FlowLayout
+            layout.deletedItems = selected 
 			dataSource.deleteItemsAtIndexPaths(selected)
 			collectionView?.deleteItems(at: selected)
 			navigationController?.isToolbarHidden = true
