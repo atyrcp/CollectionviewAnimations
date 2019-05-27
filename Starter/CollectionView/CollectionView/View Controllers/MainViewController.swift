@@ -81,10 +81,8 @@ extension MainViewController {
 	
 	override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
-		if let park = dataSource.parkForItemAtIndexPath(indexPath) {
-			cell.titleLabel.text = park.name
-			cell.isEditing = isEditing
-		}
+		cell.park = dataSource.parkForItemAtIndexPath(indexPath)
+        cell.isEditing = isEditing
 		return cell
 	}
 	
