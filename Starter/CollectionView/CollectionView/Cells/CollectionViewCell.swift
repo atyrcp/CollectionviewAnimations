@@ -9,6 +9,7 @@ class CollectionViewCell: UICollectionViewCell {
         didSet {
             if let park = park {
                 mainImageView.image = UIImage(named: park.photo)
+                titleLabel.text = park.name
             }
         }
     }
